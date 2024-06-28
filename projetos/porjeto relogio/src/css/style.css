@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: linear-gradient(120deg, #00000076, #00000071), url('https://mir-s3-cdn-cf.behance.net/project_modules/hd/1bdeda42619551.5801abf40eb6b.gif') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'relogio';
+    box-shadow: 0 0 14px;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.relogio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    width: 80%;
+    margin: 2%;
+}
+
+.relogio div {
+    padding: 5%;
+    box-shadow: 0 0 14px;
+    width: 40%;
+    margin: 5px;
+    border-radius: 5%;
+}
+
+
+.relogio span {
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'numeros';
+}
+
+.relogio span.tempo {
+    font-family: 'relogio';
+
+}
